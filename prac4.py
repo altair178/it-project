@@ -19,3 +19,5 @@ if income < 0:
     print("Income cannot be negative")
 else:
     print(f"The tax on an income of {income} is {tax}")
+net_income = income - tax
+print(f"The net income after tax is {net_income}")
